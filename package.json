@@ -4,7 +4,7 @@
   "description": "The app stores the user's daily workouts. On the landing page the user can choose to add more exercises to their most recent workout or to create a new workout for the day and populate it with exercises. There is a stats page that returns data of the user's last 7 days of workouts.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test specified\"",
     "start": "node server.js"
   },
   "author": "",
