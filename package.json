@@ -1,23 +1,25 @@
 {
   "name": "fitness-tracker",
   "version": "1.0.0",
-  "description": "The app stores the user's daily workouts. On the landing page the user can choose to add more exercises to their most recent workout or to create a new workout for the day and populate it with exercises. There is a stats page that returns data of the user's last 7 days of workouts.",
+  "description": "fitness-tracker",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"No test specified\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bsekis/fitness-tracker.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/bsekis/fitness-tracker/issues"
   },
   "homepage": "https://github.com/bsekis/fitness-tracker#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "node": "^14.13.0"
   }
 }
